@@ -15,10 +15,10 @@
             System.out.println("Konstruktor domyslny");
         }
 
-        Punkt(int first, int second){
+        Punkt(int x, int y){
             System.out.println("Konstruktor z dwoma parametrami");
-            x = first;
-            y = second;
+            this.x = x;
+            this.y = y;
         }
         int x;
         int y;
